@@ -2,14 +2,9 @@
 int main(int argc, char const *argv)
 {
     int num;
+    int cnum = 0;
     printf("Ingrese el numero\n");
     scanf("%d", &num);
-    if (num % 2 == 0)
-    {
-        printf("El numero es primo\n");
-    }
-    else
-        printf("No es Primo");
 
     return 0;
 }
